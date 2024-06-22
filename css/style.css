@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 39px;
+    position: top;
+    background-image: linear-gradient(#ff7db8,#ee2a7b);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left ;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{ 
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 0px 25px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+nav li a:hover{
+    color: #fed1c9;
+    transition: all 0.4s ease 0s;
+
+}
+  
+  .bordor-container {
+    border: solid #ee2a7b;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .bodor-container > h3 {
+    color: #ee2a7b;
+  }
+  
+  
